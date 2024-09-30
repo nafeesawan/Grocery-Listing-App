@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Grocery Listing App</string>
+    <string name="grocery_list">Grocery List</string>
+    <string name="list_it_check_it_buy_it_your_shopping_made_simple">List It, Check It, Buy It—Your Shopping Made Simple</string>
+    <string name="login_screen">login screen</string>
+    <string name="login_page">Login Page</string>
+    <string name="sign_in_to_continue">Sign in to continue</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="already_registered_sign_up">Already Registered? Sign up</string>
+    <string name="sign_up_page">Sign-up Page</string>
+    <string name="sign_up_to_continue">Sign up to Continue</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign up</string>
+    <string name="already_registered_sign_in">Already Registered? Sign in</string>
+    <string name="forgot_password_dialog">Forgot Password</string>
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="item_name">Item Name</string>
+    <string name="quantity">Quantity</string>
+    <string name="rate">Rate</string>
+    <string name="total_cost">Total Cost</string>
+    <string name="add_item_description">Add new item</string>
+    <string name="logoimg">LogoImg</string>
+    <string name="logo_img">Logo Img</string>
+</resources>

@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:paddingVertical="16dp"
+    android:paddingHorizontal="20dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:padding="4dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Add Items to Card"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:id="@+id/idTVHeading" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Base.Theme.GroceryListingApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        app:helperText="Enter Item Name"
+        app:hintTextColor="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idEdtItemName"
+            android:inputType="text"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:hint="Item Name"
+            android:contentDescription="Enter the item name" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Base.Theme.GroceryListingApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        app:helperText="Enter Item Quantity"
+        app:hintTextColor="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idEdtItemQuantity"
+            android:inputType="number"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:hint="Quantity"
+            android:contentDescription="Enter the quantity of the item" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Base.Theme.GroceryListingApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        app:helperText="Enter Item Price"
+        app:hintTextColor="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idEdtItemPrice"
+            android:inputType="numberDecimal"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:hint="Price"
+            android:contentDescription="Enter the price of the item" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- QR Scan Button -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/idBtnScanQRCode"
+        android:text="Scan QR Code"
+        android:background="@drawable/btn_background"
+        android:textAllCaps="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:weightSum="2">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            android:id="@+id/idBtnCancel"
+            android:text="Cancel"
+            android:background="@drawable/btn_background"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="4dp"
+            android:id="@+id/addButton"
+            android:text="Add"
+            android:background="@drawable/btn_background"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</LinearLayout>
